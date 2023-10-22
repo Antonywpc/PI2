@@ -103,7 +103,8 @@
 
 
 <?php
-include "../../../util/config.php";
+include " ../../../util/config.php";
+
 $err = "null";
 if (isset($_POST['gravar'])) {
     if (isset($_POST['password']) && isset($_POST['password-2'])) {
